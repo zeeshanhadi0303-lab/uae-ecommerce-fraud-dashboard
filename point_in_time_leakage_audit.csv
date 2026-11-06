@@ -1,0 +1,6 @@
+feature,availability_timestamp,audit_status,finding
+transactions_last_1h,transactions_last_1h_asof_utc,UNVERIFIED,Missing point-in-time timestamp column: transactions_last_1h_asof_utc
+transactions_last_24h,transactions_last_24h_asof_utc,UNVERIFIED,Missing point-in-time timestamp column: transactions_last_24h_asof_utc
+ip_risk_score,ip_risk_score_asof_utc,UNVERIFIED,Missing point-in-time timestamp column: ip_risk_score_asof_utc
+user_prev_chargebacks,chargeback_history_asof_utc,UNVERIFIED,Missing point-in-time timestamp column: chargeback_history_asof_utc
+user_is_high_risk,high_risk_status_asof_utc,UNVERIFIED,Missing point-in-time timestamp column: high_risk_status_asof_utc

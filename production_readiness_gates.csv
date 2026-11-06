@@ -1,0 +1,9 @@
+Gate,Status,Required action
+Production source provenance,BLOCKED,Current data is synthetic; obtain source-owner evidence.
+Point-in-time feature audit,BLOCKED,"Velocity, IP risk and historical chargeback timestamps unverified."
+Negative account-age root cause,BLOCKED,Investigate source-generation and event-time logic.
+Risk/Finance cost approval,BLOCKED,"Validate chargeback loss, margin, review cost and staffing capacity."
+Temporal backtesting,REQUIRED,Rolling-origin validation on authorized real data.
+Security/privacy assessment,REQUIRED,"Threat model, access control, encryption, retention and legal review."
+Controlled pilot,NOT STARTED,"Shadow mode, human review, guardrails and rollback."
+Production deployment,NOT APPROVED,Proof of concept only.
